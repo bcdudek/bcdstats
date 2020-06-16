@@ -1,0 +1,13 @@
+ver 1.8 Oct. 9, 2017
+corrected display issue where retained cutpoints were displayed even if checkbox didn't request them.
+
+
+ver 1.7 Jan 27, 2017
+added validation checks for out of range things.
+added changes to pdisplay (jason did it) to handle when prob should properly be 0 or 1.0.
+
+
+ver 1.6, Jan 22, 2017
+changed source tools to local=T
+cleaned up some unused code
+added sep="" to sliders

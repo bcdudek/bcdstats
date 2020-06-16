@@ -1,0 +1,201 @@
+StudyID,Age,Sex,Race,Ethn,Employ,TxCond,PrinDiag,CSR_PrinDx,ComDiagN,bqol,boasev,bpa,bods,beas,bna,basens,bmind,bworry,bimp
+12,23,Male,White,Non-Hispanic/Non Latino,Full Time Student,Diagnosis-Specific Protocol,Social Anxiety,Clinical Threshold,0,33,14,14,11,215,37,45,32,64,10
+34,48,Female,African-American,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Social Anxiety,6,1,49,13,38,0,215,38,47,3,64,12
+43,26,Female,White,Non-Hispanic/Non Latino,Part Time Employment,Diagnosis-Specific Protocol,Social Anxiety,5,1,50,7,25,0,215,26,43,34,64,11
+44,19,Female,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Social Anxiety,6,4,41,13,24,5,215,28,41,29,64,12
+45,55,Female,White,Non-Hispanic/Non Latino,Unemployed,Transdiagnostic Protocol,Social Anxiety,5,2,57,16,38,10,215,40,51,36,64,5
+48,38,Male,White,Hispanic/Latino,Unemployed,Diagnosis-Specific Protocol,Social Anxiety,6,1,35,16,18,16,215,37.77777778,34,39,33,19
+60,18,Female,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Social Anxiety,6,4,20,12,25,7,215,42,57,29,64,21
+64,36,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Social Anxiety,5,3,43,14,21,9,215,40,35,31,64,23
+67,23,Female,African-American,Non-Hispanic/Non Latino,Part Time Employment,Transdiagnostic Protocol,Social Anxiety,Clinical Threshold,0,44,12,36,12,215,27,29,39,22,10
+77,19,Male,White,Non-Hispanic/Non Latino,Unemployed,Diagnosis-Specific Protocol,Social Anxiety,7,0,34,13,16,11,215,34,27,48,42,20
+78,46,Male,White,Non-Hispanic/Non Latino,Unemployed,Diagnosis-Specific Protocol,Social Anxiety,Clinical Threshold,0,46,10,31,6,215,21,22,49,35,15
+79,23,Male,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Social Anxiety,5,0,52,6,34,0,215,21,30,36,55,6
+80,45,Male,White,Non-Hispanic/Non Latino,Unemployed,Transdiagnostic Protocol,Social Anxiety,5,0,45,12,32,7,215,25,24,36,44,12
+86,32,Male,White,Non-Hispanic/Non Latino,Unemployed,Diagnosis-Specific Protocol,Social Anxiety,6,1,42,11,22,7,215,25,23,30,64,20
+87,46,Female,African-American,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Social Anxiety,Clinical Threshold,0,62,5,47,3,215,24,23,55,40,10
+95,20,Male,White,Non-Hispanic/Non Latino,Unemployed,Transdiagnostic Protocol,Social Anxiety,6,1,32,18,23,19,199,39,17,67,65,25
+97,52,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Social Anxiety,6,1,42,12,20,12,199,22,13,44,64,26
+98,24,Male,White,Non-Hispanic/Non Latino,Unemployed,Transdiagnostic Protocol,Social Anxiety,6,1,28,18,14,20,292,43,64,18,64,32
+104,20,Male,White,Non-Hispanic/Non Latino,Part Time Employment,Transdiagnostic Protocol,Social Anxiety,5,0,57,11,33,1,215,20,36,49,35,12
+111,44,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Social Anxiety,6,5,41,8,28,0,205,22,27,46,50,22
+112,26,Female,White,Hispanic/Latino,Unemployed,Diagnosis-Specific Protocol,Social Anxiety,5,1,48,5,26,0,220,23,41,51,40,12
+128,23,Male,White,Non-Hispanic/Non Latino,Full Time Student,Diagnosis-Specific Protocol,Social Anxiety,5,0,51,11,36,0,210,20,22,51,35,10
+129,25,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Social Anxiety,Clinical Threshold,2,65,6,40,0,168,17,31,66,65,7
+130,29,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Social Anxiety,5,0,37,12,24,7,267,29,31,26,64,11
+131,35,Female,White,Non-Hispanic/Non Latino,Unemployed,Transdiagnostic Protocol,Social Anxiety,5,0,44,8,20,0,219,20,8,34,64,7
+136,24,Male,African-American,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Social Anxiety,5,0,50,10,24,0,209,23,4,46,50,6
+142,23,Male,More than one race,Non-Hispanic/Non Latino,Unemployed,Diagnosis-Specific Protocol,Social Anxiety,6,2,42,13,29,6,254,40,42,45,50,23
+162,23,Female,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Social Anxiety,5,1,38,13,24,8,199,32,47,23,64,9
+165,30,Male,African-American,Non-Hispanic/Non Latino,Unemployed,Diagnosis-Specific Protocol,Social Anxiety,6,2,44,10,27,6,167,20,7,58,50,14
+169,22,Male,White,Non-Hispanic/Non Latino,Unemployed,Diagnosis-Specific Protocol,Social Anxiety,6,2,45,13,22,5,229,31,8,44,64,13
+173,18,Female,Asian,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Social Anxiety,6,2,43,16,24,12,285,38,46,27,64,13
+179,41,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Social Anxiety,6,3,44,10,28,6,215,29,32,36,64,16
+186,24,Female,White,Non-Hispanic/Non Latino,Part Time Employment,Transdiagnostic Protocol,Social Anxiety,6,3,50,9,32,5,230,20,52,39,44,16
+187,21,Male,White,Non-Hispanic/Non Latino,Unemployed,Diagnosis-Specific Protocol,Social Anxiety,6,1,38,15,31,5,223,26,12,73.6,32,20
+194,23,Male,White,Non-Hispanic/Non Latino,Full Time Student,Diagnosis-Specific Protocol,Social Anxiety,5,3,40,11,24,10,215,28,17,38,61,16
+195,39,Female,African-American,Non-Hispanic/Non Latino,Unemployed,Transdiagnostic Protocol,Social Anxiety,7,5,32,19,23,20,327,42,62,48,64,30
+206,29,Female,Asian,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Social Anxiety,6,2,36,13,23,13,254,43,51,20,79,25
+209,30,Male,White,Hispanic/Latino,Full Time Student,Transdiagnostic Protocol,Social Anxiety,5,2,46,8,29,0,237,14,22,55,43,19
+218,25,Male,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Social Anxiety,5,0,53,5,37,3,182,31,48,30,61,6
+219,24,Male,White,Non-Hispanic/Non Latino,Unemployed,Diagnosis-Specific Protocol,Social Anxiety,6,2,41,13,22,4,225,27,33,66,66,17
+220,40,Female,African-American,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Social Anxiety,6,3,39,8,26,9,253,34,39,38,72,18
+226,27,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Social Anxiety,5,2,39,3,29,0,180,23,23,40,51,5
+229,23,Female,White,Non-Hispanic/Non Latino,Part Time Employment,Diagnosis-Specific Protocol,Social Anxiety,5,0,51,12,30,0,230,33,26,24,73,10
+235,19,Female,White,Hispanic/Latino,Full Time Student,Diagnosis-Specific Protocol,Social Anxiety,5,3,20,15,22,14,260,32,32,36,64,15
+241,39,Male,White,Non-Hispanic/Non Latino,Unemployed,Transdiagnostic Protocol,Social Anxiety,5,1,50,9,37,9,238,30,26,23,78,16
+242,28,Female,White,Hispanic/Latino,Full Time Employment,Diagnosis-Specific Protocol,Social Anxiety,6,5,40,13,30,8,192,30,42,36,66,22
+250,20,Female,White,Hispanic/Latino,Full Time Student,Diagnosis-Specific Protocol,Social Anxiety,6,1,48,13,21,9,234,33,23,34,64,10
+259,30,Female,White,Non-Hispanic/Non Latino,Part Time Employment,Diagnosis-Specific Protocol,Social Anxiety,5,2,50,6,27,0,222,23,16,41,56,13
+273,26,Female,Asian,Non-Hispanic/Non Latino,Full Time Student,Diagnosis-Specific Protocol,Social Anxiety,6,6,41,12,17,2,224,39,12,29,76,15
+274,20,Male,White,Hispanic/Latino,Unemployed,Diagnosis-Specific Protocol,Social Anxiety,7,3,34,14,18,13,250,21,19,48,53,21
+278,31,Male,African-American,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Social Anxiety,7,2,30,13,24,15,253,48,54,27,78,13
+281,21,Female,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Social Anxiety,6,2,50,15,24,2,273,27,33,12,80,18
+316,66,Female,African-American,Non-Hispanic/Non Latino,Unemployed,Transdiagnostic Protocol,Social Anxiety,5,1,55,2,30,6,198,18,9,55,33,18
+358,24,Male,Asian,Non-Hispanic/Non Latino,Unemployed,Diagnosis-Specific Protocol,Social Anxiety,5,3,50,12,31,0,207,30,22,19,55,18
+11,34,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Panic Disorder,Clinical Threshold,0,53,4,34,0,215,17,39,42,64,15
+20,40,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Panic Disorder,Clinical Threshold,0,55,6,29,4,215,19,35,27,64,6
+21,47,Female,White,Non-Hispanic/Non Latino,Unemployed,Transdiagnostic Protocol,Panic Disorder,6,1,49,12,33,4,215,18,41,23,64,22
+31,18,Female,White,Non-Hispanic/Non Latino,Unemployed,Diagnosis-Specific Protocol,Panic Disorder,5,1,38,16,35,10,215,42,60,6,64,19
+66,28,Female,White,Non-Hispanic/Non Latino,Part Time Employment,Transdiagnostic Protocol,Panic Disorder,5,2,37,9,22,9,215,32,31,29,64,8
+69,56,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Panic Disorder,6,3,34,11,20,10,215,35,44,15,64,20
+73,26,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Panic Disorder,5,0,39,10,21,5,215,28,19,25,64,10
+84,63,Male,White,Non-Hispanic/Non Latino,Unemployed,Diagnosis-Specific Protocol,Panic Disorder,6,4,39,11,32,10,215,34,33,41,64,21
+99,26,Male,Asian,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Panic Disorder,Clinical Threshold,0,59,6,36,0,215,19,32,64,65,7
+113,36,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Panic Disorder,6,0,40,13,23,8,242,46,43,23,64,13
+146,43,Female,African-American,Non-Hispanic/Non Latino,Unemployed,Diagnosis-Specific Protocol,Panic Disorder,6,1,42,12,25,7,182,18,28,47,50,21
+161,30,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Panic Disorder,Clinical Threshold,2,52,8,40,0,165,26,24,58,50,14
+168,57,Male,White,Non-Hispanic/Non Latino,Other,Transdiagnostic Protocol,Panic Disorder,6,1,23,16,18,11,241,35,38,5,64,21
+183,21,Male,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Panic Disorder,5,4,48,12,21,2,199,28,40,51,40,21
+190,30,Female,White,Non-Hispanic/Non Latino,Unemployed,Diagnosis-Specific Protocol,Panic Disorder,5,5,39,9,22,7,240,32,49,40,55,12
+200,37,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Panic Disorder,7,1,43,11,22,4,259,25,31,44,80,26
+202,29,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Panic Disorder,6,3,38,10,23,5,225,21,43,21,50,14
+203,46,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Panic Disorder,5,4,42,8,23,5,232,35,26,44,60,13
+208,18,Male,White,Non-Hispanic/Non Latino,Other,Diagnosis-Specific Protocol,Panic Disorder,6,3,65,8,39,1,211,22,16,64,76,7
+216,24,Female,African-American,Non-Hispanic/Non Latino,Part Time Employment,Transdiagnostic Protocol,Panic Disorder,5,5,54,7,35,0,232,25,28,25,80,15
+223,26,Female,White,Non-Hispanic/Non Latino,Part Time Employment,Diagnosis-Specific Protocol,Panic Disorder,5,2,47,10,33,5,203,28,50,46,74,16
+234,30,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Panic Disorder,5,3,42,11,30,7,209,35,30,33,56,14
+251,23,Male,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Panic Disorder,6,4,27,14,16,12,206,24,43,36,70,22
+252,22,Female,Asian,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Panic Disorder,Clinical Threshold,4,54,6,30,3,171,22,36,55,60,6
+271,35,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Panic Disorder,5,2,47,8,40,0,202,28,35,43,66,17
+301,51,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Panic Disorder,Clinical Threshold,1,62,5,33,0,223,10,5,75,23,5
+313,23,Male,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Panic Disorder,Clinical Threshold,2,47,8,32,8,226,21,51,36,50,14
+321,55,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Panic Disorder,Clinical Threshold,1,52,1,30,6,219,11,16,57,42,15
+325,28,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Panic Disorder,6,0,50,10,32,3,246,23,48,40,68,17
+334,33,Female,White,Hispanic/Latino,Full Time Employment,Diagnosis-Specific Protocol,Panic Disorder,6,2,41,9,28,4,167,30,29,63,65,23
+354,51,Female,White,Non-Hispanic/Non Latino,Full Time Student,Diagnosis-Specific Protocol,Panic Disorder,6,1,46,14,35,0,213,24,33,84,47,17
+355,44,Male,White,Non-Hispanic/Non Latino,Unemployed,Transdiagnostic Protocol,Panic Disorder,5,2,53,5,41,2,160,15,23,50,34,4
+359,21,Male,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Panic Disorder,5,4,52,7,37,0,182,34,45,32,65,10
+366,20,Female,White,Non-Hispanic/Non Latino,Unemployed,Transdiagnostic Protocol,Panic Disorder,7,4,26,20,39,3,226,45,62,8,72,23
+371,51,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Panic Disorder,6,1,46,15,29,1,262,29,57,30,66,22
+372,24,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Panic Disorder,Clinical Threshold,2,39,7,34,3,178,33,39,34,57,11
+373,29,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Panic Disorder,5,1,51,7,35,0,236,21,39,59,51,15
+377,18,Male,White,Non-Hispanic/Non Latino,Other,Transdiagnostic Protocol,Panic Disorder,6,1,63,6,37,0,246,32,33,48,68,15
+383,27,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Panic Disorder,5,4,54,7,28,2,220,20,31,41,59,6
+385,58,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Panic Disorder,5,2,42,11,30,7,203,27,25,37,56,20
+391,45,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Panic Disorder,6,2,28,13,22,11,266,30,51,23,69,19
+394,24,Female,White,Hispanic/Latino,Full Time Student,Diagnosis-Specific Protocol,Panic Disorder,7,4,54,13,34,0,236,31,48,25,71,18
+397,29,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Panic Disorder,6,3,36,15,21,13,200,40,41,16,75,25
+398,23,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Panic Disorder,5,2,54,3,43,0,193,13,26,36,23,6
+401,43,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Panic Disorder,5,5,52,9,34,5,246,27,39,39,74,17
+406,22,Female,White,Non-Hispanic/Non Latino,Part Time Employment,Transdiagnostic Protocol,Panic Disorder,6,2,44,10,25,6,233,32,46,38,66,20
+409,35,Male,White,Non-Hispanic/Non Latino,Unemployed,Diagnosis-Specific Protocol,Panic Disorder,5,4,53,9,31,1,245,28,42,24,52,8
+411,35,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Panic Disorder,5,6,54,4,33,2,193,21,45,32,37,18
+414,32,Female,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Panic Disorder,6,3,45,9,19,6,235,18,36,46,54,11
+416,56,Male,White,Non-Hispanic/Non Latino,Other,Diagnosis-Specific Protocol,Panic Disorder,5,3,48,6,35,2,164,15,32,49,48,16
+418,27,Male,White,Non-Hispanic/Non Latino,Other,Diagnosis-Specific Protocol,Panic Disorder,6,6,39,12,22,7,204,22,28,37,62,26
+419,26,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Panic Disorder,Clinical Threshold,1,65,7,40,0,162,17,5,59,28,8
+1,22,Male,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Generalized Anxiety,5,2,48,11,24,14,215,38,41,35,64,10
+2,34,Male,Asian,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Generalized Anxiety,5,0,42,4,22,3,215,23,39,36,33,10
+7,19,Female,Asian,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Generalized Anxiety,5,0,30,11,20,4,215,30,33,28,64,17
+10,21,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,5,0,34,8,29,7,215,36,39,16,64,12
+28,57,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,5,1,63,7,40,0,215,33,26,43,64,15
+29,32,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,5,1,48,8,39,6,215,32,33,14,64,20
+32,20,Female,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Generalized Anxiety,5,2,53,12,23,5,215,32,29,39,11,10
+88,24,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,6,1,40,10,23,0,215,24,35,64,65,21
+94,36,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,5,1,48,4,31,0,230,22,23,41,64,9
+108,35,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,5,1,43,10,20,3,214,31,33,24,64,20
+124,34,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Generalized Anxiety,6,1,39,11,15,14,218,41,30,14,64,27
+127,27,Female,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Generalized Anxiety,5,1,44,13,38,0,234,31,28,27,64,15
+133,25,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,6,3,44,14,28,4,220,39,26,45,64,21
+143,60,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Generalized Anxiety,5,3,40.92307692,11,25,0,216,32,17,34,64,22
+164,25,Female,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Generalized Anxiety,5,0,46,10,28,4,178,19,40,33,73,14
+171,21,Female,White,Non-Hispanic/Non Latino,Part Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,5,4,48,10,35,0,236,26,34,28,64,13
+176,23,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,5,1,40,12,30,12,238,35,23,15,64,18
+180,35,Female,Asian,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Generalized Anxiety,6,4,40,13,24,7,214,27,7,72,65,29
+185,28,Male,More than one race,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,6,7,40,13,34,6,185,24,41,61,71,13
+188,35,Female,African-American,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Generalized Anxiety,6,5,35,14,26,13,231,35,43,26,64,29
+204,19,Female,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Generalized Anxiety,6,4,39,9,25,7,187,32,16,53,80,25
+205,24,Female,More than one race,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Generalized Anxiety,5,3,53,9,36,0,178,28,43,35,76,17
+211,42,Female,White,Non-Hispanic/Non Latino,Unemployed,Diagnosis-Specific Protocol,Generalized Anxiety,6,1,42,12,34,10,244,32,29,31,68,21
+225,24,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Generalized Anxiety,5,3,40,12,19,11,223,32,23,33,60,23
+227,31,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,6,2,40,12,24,10,220,42,42,19,80,21
+246,63,Male,White,Non-Hispanic/Non Latino,Unemployed,Transdiagnostic Protocol,Generalized Anxiety,6,4,41,10,17,8,244,21,29,29,79,10
+254,20,Female,White,Non-Hispanic/Non Latino,Full Time Student,Diagnosis-Specific Protocol,Generalized Anxiety,6,1,32,11,23,7,210,45,46,43,65,15
+266,19,Female,White,Non-Hispanic/Non Latino,Unemployed,Transdiagnostic Protocol,Generalized Anxiety,6,5,45,11,31,3,259,25,38,22,75,12
+268,32,Male,White,Non-Hispanic/Non Latino,Full Time Student,Diagnosis-Specific Protocol,Generalized Anxiety,5,3,38,10,27,9,181,38,40,39,64,5
+269,25,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,6,1,42,10,26,7,229,38,41,25,77,15
+277,44,Male,White,Non-Hispanic/Non Latino,Other,Transdiagnostic Protocol,Generalized Anxiety,6,6,43,13,22,7,223,30,33,41,68,14
+283,23,Female,Asian,Non-Hispanic/Non Latino,Full Time Student,Diagnosis-Specific Protocol,Generalized Anxiety,6,5,53,6,31,4,219,31,34,41,70,8
+287,30,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Generalized Anxiety,6,2,42,11,27,7,252,32,20,47,72,18
+288,24,Female,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Generalized Anxiety,6,2,39,15,28,8,241,30,19,45,77,19
+292,26,Female,White,Hispanic/Latino,Other,Diagnosis-Specific Protocol,Generalized Anxiety,5,7,45,12,32,9,179,34,27,38,76,10
+293,32,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,5,2,42,9,32,6,164,23,41,38,71,10
+298,48,Female,White,Non-Hispanic/Non Latino,Part Time Employment,Transdiagnostic Protocol,Generalized Anxiety,6,6,38,12,24,12,262,27,37,42,70,20
+300,44,Male,Asian,Non-Hispanic/Non Latino,Unemployed,Diagnosis-Specific Protocol,Generalized Anxiety,6,2,39,17,30,16,238,39,29,37,75,23
+307,25,Female,White,Hispanic/Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,6,3,31,17,18,17,259,42,50,7,73,21
+308,28,Female,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Generalized Anxiety,6,2,52,9,29,5,199,20,11,34,58,17
+309,30,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,5,3,53,6,34,6,202,19,32,28,55,11
+310,26,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,Clinical Threshold,0,46,10,31,3,233,25,38,50,46,5
+311,24,Male,White,Hispanic/Latino,Full Time Student,Diagnosis-Specific Protocol,Generalized Anxiety,5,1,50,9,32,2,187,22,23,41,68,11
+312,28,Male,White,Non-Hispanic/Non Latino,Unemployed,Transdiagnostic Protocol,Generalized Anxiety,Clinical Threshold,1,53,6,33,5,154,20,23,53,68,4
+323,20,Female,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Generalized Anxiety,5,2,52,5,40,4,187,30,45,39,61,6
+328,28,Male,More than one race,Hispanic/Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,5,1,51,11,33,0,185,23,12,43,76,20
+331,39,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,6,4,42,11,29,10,231,33,45,18,75,19
+336,29,Female,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Generalized Anxiety,5,4,44,8,23,3,215,20,32,36,64,17
+339,18,Female,White,Hispanic/Latino,Full Time Student,Transdiagnostic Protocol,Generalized Anxiety,5,2,53,12,26,0,199,22,17,56,64,9
+342,50,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Generalized Anxiety,Clinical Threshold,3,58,2,36,0,203,14,23,61,60,5
+344,24,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,5,3,40,7,32,6,123,28,31,18,65,12
+356,28,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,5,5,40,10,41,8,171,41,29,31,76,12
+362,26,Female,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Generalized Anxiety,5,1,53,9,34,8,220,17,15,41,70,10
+363,35,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Generalized Anxiety,5,2,56,8,46,7,211,27,34,49,52,8
+364,29,Male,White,Non-Hispanic/Non Latino,Unemployed,Diagnosis-Specific Protocol,Generalized Anxiety,Clinical Threshold,2,54,4,34,4,197,17,24,68,48,15
+367,25,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Generalized Anxiety,5,8,42,13,26,10,208,30,38,25,77,15
+4,35,Male,White,Non-Hispanic/Non Latino,Unemployed,Diagnosis-Specific Protocol,Obsessive-Compulsive Disorder,5,0,44,5,27,5,215,20,21,7,64,8
+38,28,Male,White,Non-Hispanic/Non Latino,Unemployed,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,7,2,34,12,13,12,215,40,39,48,35,32
+39,23,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,6,0,53,9,41,5,215,33,44,8,64,21
+59,52,Male,White,Non-Hispanic/Non Latino,Unemployed,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,7,3,24,18,25,15,215,37,48,18,64,32
+93,21,Male,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,5,0,49,5,38,0,190,25,17,41,66,7
+116,25,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Obsessive-Compulsive Disorder,Clinical Threshold,0,49,6,28,0,218,17,41,26,64,11
+117,22,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Obsessive-Compulsive Disorder,Clinical Threshold,0,48,7,33,5,181,25,13,42,64,10
+135,36,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,6,2,46,10,29,5,227,33,31,24,64,19
+198,22,Male,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,6,5,47,13,36,0,201,32,20,15,64,21
+221,26,Male,Asian,Non-Hispanic/Non Latino,Full Time Student,Diagnosis-Specific Protocol,Obsessive-Compulsive Disorder,5,1,37,8,29,5,205,24,22,39,76,8
+245,22,Female,White,Hispanic/Latino,Part Time Employment,Diagnosis-Specific Protocol,Obsessive-Compulsive Disorder,6,6,44,10,28,6,215,29,32,36,64,10
+253,35,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,6,3,38,10,26,0,194,34,16,48,71,19
+294,22,Female,White,Non-Hispanic/Non Latino,Full Time Student,Diagnosis-Specific Protocol,Obsessive-Compulsive Disorder,6,3,40,11,27,5,231,33,45,20,60,16
+295,23,Male,White,Non-Hispanic/Non Latino,Part Time Employment,Diagnosis-Specific Protocol,Obsessive-Compulsive Disorder,6,3,44,10,28,6,215,29,32,36,64,25
+296,24,Male,Pacific Islander,Hispanic/Latino,Part Time Employment,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,6,2,42,2,29,8,239,24,10,23,65,13
+302,25,Female,White,Non-Hispanic/Non Latino,Full Time Student,Diagnosis-Specific Protocol,Obsessive-Compulsive Disorder,6,0,47,9,29,8,152,27,6,33,52,13
+304,19,Male,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,6,3,47,8,34,6,218,22,13,43,58,9
+306,24,Male,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,5,2,42,4,26,0,220,22,30,21,67,8
+314,29,Female,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,Clinical Threshold,2,57,9,38,0,153,13,43,9,53,4
+319,41,Female,Asian,Non-Hispanic/Non Latino,Other,Diagnosis-Specific Protocol,Obsessive-Compulsive Disorder,Clinical Threshold,1,51,10,21,6,237,24,28,43,56,7
+338,23,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Obsessive-Compulsive Disorder,6,4,28,16,13,8,248,31,38,19,80,19
+341,19,Female,African-American,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,6,5,33,12,24,12,194,39,17,18,78,24
+343,25,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Obsessive-Compulsive Disorder,6,3,51,10,31,4,207,38,18,19,67,16
+369,27,Female,White,Non-Hispanic/Non Latino,Full Time Student,Diagnosis-Specific Protocol,Obsessive-Compulsive Disorder,6,2,38,11,32,9,225,34,40,32,75,14
+374,28,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,5,1,47,5,24,0,125,16,17,33,53,9
+379,32,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,7,3,46,14,39,14,189,41,40,30,70,17
+380,32,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Obsessive-Compulsive Disorder,6,4,56,11,38,0,232,37,51,13,66,21
+381,35,Female,White,Non-Hispanic/Non Latino,Part Time Employment,Diagnosis-Specific Protocol,Obsessive-Compulsive Disorder,7,10,34,12,18,11,236,29,60,28,77,30
+382,34,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,5,2,46,7,26,6,171,24,7,28,62,13
+390,49,Male,White,Non-Hispanic/Non Latino,Unemployed,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,7,1,39,7,24,3,196,22,30,54,41,8
+395,29,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Obsessive-Compulsive Disorder,5,0,56,6,33,0,201,26,22,24,69,6
+399,42,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,7,2,17,16,20,16,259,39,23,12,73,30
+400,29,Male,White,Non-Hispanic/Non Latino,Full Time Student,Diagnosis-Specific Protocol,Obsessive-Compulsive Disorder,5,5,47,1,39,6,192,25,43,53,45,12
+402,23,Female,White,Non-Hispanic/Non Latino,Part Time Employment,Diagnosis-Specific Protocol,Obsessive-Compulsive Disorder,7,5,47,14,43,0,221,40,28,10,57,25
+403,21,Male,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,6,0,51,5,39,0,216,31,29,31,71,6
+405,19,Male,White,Non-Hispanic/Non Latino,Full Time Employment,Diagnosis-Specific Protocol,Obsessive-Compulsive Disorder,6,1,38,14,32,6,196,35,23,6,76,20
+407,24,Male,White,Non-Hispanic/Non Latino,Full Time Student,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,5,3,55,6,37,0,142,25,14,66,51,11
+420,29,Female,White,Non-Hispanic/Non Latino,Full Time Employment,Transdiagnostic Protocol,Obsessive-Compulsive Disorder,6,5,50,8,40,0,169,29,36,37,55,13

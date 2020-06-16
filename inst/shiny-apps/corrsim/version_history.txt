@@ -1,0 +1,19 @@
+version 1.6 1-23-2017
+local=T in source functions for scoping control
+sep="" in sliders
+
+
+version 1.5. 11-28-16
+added sdline capability to simulation plot
+and
+changed from .Rmd to .md for about and uploaddata tabs
+
+version 1.4 1-5-16
+resized plot symbols and changed color scheme of the points
+corrected typo on rug colors
+created a showcode tab in 2nd version of app called corrsimcode
+cleaned up formatting a bit
+
+ver 1.3, 9-28-2015
+changed yhat rug and r squared text to dark red
+moved source tools to inside server.

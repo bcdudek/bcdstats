@@ -1,0 +1,32 @@
+Package: bcdstats
+Title: A collection of functions to support B. Dudek's APSY510/511 classes
+Version: 0.0.0.9000
+Date: 06/15/2020
+Authors@R: 
+    person(given = "Bruce",
+           family = "Dudek",
+           role = c("aut", "cre"),
+           email = "bruce.dudek@albany.edu")
+Maintainer: Bruce Dudek <bruce.dudek@albany.edu>
+Description: Bcdstats provides EDA graphing functions, probability distribution graphing, pearson correlation inferences.
+Depends: R (>= 3.5.0)
+Imports:
+    shiny,
+    Cairo,
+    KernSmooth,
+    sm,
+    vioplot,
+    car,
+    nnet,
+    yhat,
+    MBESS,
+    yacca,
+    psych,
+    e1071,
+    quantreg,
+    shinyBS
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0

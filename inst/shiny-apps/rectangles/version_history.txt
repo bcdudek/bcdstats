@@ -1,0 +1,10 @@
+ver1.1 jan 23, 2017
+local=T for source functions and scoping control
+sep="" in sliderInput
+changed from Rmd to md for about tab
+ver1.2 May 23,2018
+reworked color mapping for rectangles in final simulation,
+for histograms, and for treemap.  fixing bug when corr= -1 or 1
+
+ver 1.3  aug 12, 2018
+Refined some aesthetics.  Corrected a few typos.  Cleaned up some language.

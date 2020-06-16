@@ -1,0 +1,19 @@
+ver 1.9 Oct 4, 2019
+changed max df to 750
+
+ver 1.8 oct 24, 2017
+changed erroneous validation check which limited t quantile entry in text box to pos values
+
+ver 1.7 jan 25,2017
+added validation code for pvalue entry and range of quantiles
+
+ver. 1.6 1-22-2017
+added local=T to source function
+also commented out some unused code (renderRmd)
+
+ver 1.5  2-22-2016
+changed about tab from Rmd to md
+changed file naming in download plots
+ver 1.4.  9-28-2015
+moved source of tools.R inside of shiny server in order to improve hung session issue.
+not sure if this will solve the problem.

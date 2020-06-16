@@ -1,0 +1,10 @@
+ver1.4. Jan. 23, 2017
+added local=T to source functions
+moved functions around to better suit environment and scoping control
+sep="" in includeSlider
+change from Rmd to md for about tab
+
+ver 1.5, Oct 24, 2018
+changed method of choosing which plot to display.
+now using check boxes instead of radio buttons.
+more logical interface as per Jason.

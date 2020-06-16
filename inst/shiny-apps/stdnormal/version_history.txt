@@ -1,0 +1,15 @@
+ver 1.8 1-23-17
+added validation checks for out of range values in input boxes. major advance.
+
+ver 1.7 1-9-2017
+cleaned out some clutter and irrelevant comments
+added local=TRUE argument in sourcing for scoping control
+
+ver 1.6 2-22-2016
+changed about from Rmd to just md
+changed pdf and png file naming to use sysdate and random number in hopes of preventing
+session hangs with multiple users.
+
+ver 1.5.  9-28-2015
+moved source of tools.R inside of shiny server in order to improve hung session issue.
+not sure if this will solve the problem.

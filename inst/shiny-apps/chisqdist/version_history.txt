@@ -1,0 +1,7 @@
+version 1.4 Jan. 27, 2017
+added validation checks and reworked some limits on plot x axes
+
+version 1.4 Jan. 22, 2017
+added local=T to source function
+changed to md from Rmd for about
+cleaned up some formatting and require to library

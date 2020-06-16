@@ -1,0 +1,32 @@
+Version history
+
+1.1 Jan 9, 2018 Initial Modification of Hardman's app, by Bruce Dudek
+a.  restructure look (a superficial change)
+b.  separate code into global, server, and ui files for ease of editing
+c.  add capability for changing the mu and sigma of a normal curve to fit instructor's varying needs
+d.  add validation checks on all inputs to check (for example, integer status), and limit range of input values
+e.  change the overlaid uniform distribution so that sides of rectange are perceived as vertical
+f.  make sure that APP	doesn't crash when input field is blank
+g.  add about tab.
+
+1.2  Jan 29,2018
+
+The original app was structured to have much of its work in global.R.  Putting a large number objects in the
+global environment created a host of impediments to extensions and would be major problem if the app is on a server where the
+scheduler permits more than one user of the app in each R session (using shiny server).  The revision accomplished the following:
+
+a.  large scale restructuring done largely by Jason Bryer
+b.  moved critical components into server.R, giving more direct control over inputs from the client side.
+c.  simplified code and reworked some programming logic
+d.  structured the code so that adding in new statistics (e.g., "trimmed mean")
+    or new distributions would be easier, in future revision.
+
+1.3
+
+reworked the "Draw Samples" button and the action related to changing the number of simulated samples drawn
+a.  In ver 1.2 and prior, changing the "number of samples" entry reset  the whole simulation and cleared the current plot.
+b.  Now, the number of samples can be changed without restarting the simulation and plot.  So, samples can be added in different increments.
+E.g, one might start with sampling 1 sample at a time and then switch to 100 samples drawn after the pattern is understood.
+c.  The Draw Sample buttone was relabeled to "Draw More Samples".
+
+	
