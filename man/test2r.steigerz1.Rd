@@ -41,7 +41,9 @@ correlation coefficients and produces a standard normal deviate.
 \section{Related Functions}{
  \code{test2r.steigerz1} is a member of a set of
 functions that provide tests of differences between independent and
-dependent correlations.  See:
+dependent correlations.  The functions were inspired by the \code{paired.r}
+function in the \strong{psych} package and some of the code is modeled on code
+from that function. See:
 \itemize{ \item
 \code{\link[bcdstats:test2r.t2]{test2r.t2}}, Test two dependent correlations
 with the the T2 method: r(yx1) vs r(yx2)

@@ -2,7 +2,7 @@
 % Please edit documentation in R/mrinfo.R
 \name{mrinfo}
 \alias{mrinfo}
-\title{Regression Information for lm class objects}
+\title{Regression Information for lm class models}
 \usage{
 mrinfo(lm.fit, cilevel = 0.95, minimal = TRUE)
 }
@@ -25,11 +25,17 @@ a data frame of several indices (see values) is returned.  When \code{minimal=F}
 a list of information, including the supplemental values is returned:
 zero-order correlations, the coefficients table, confidence intervals for the
 regression coefficients, type I SS anova table and type III SS Anova table.
+
+Structure coefficients can be very helpful in interpretation of
+\code{lm} models.  The are defined as the pearson correlation of each IV in
+the model with the yhat vector.  See Thompson and Borello (1985), Cooley and Lohnes
+(1971), Cohen and Cohen (2003) or Nimon et. al., (2008).
 }
 \section{Values of the Supplemental Information}{
 
 \tabular{ll}{
 \code{beta wt} \tab Standardized Regression Coefficients\cr
+\code{beta wt} \tab Structure Coefficients\cr
 \code{partial r} \tab Partial correlations of IVs with the DV\cr
 \code{semi-partial r} \tab Semi-partial correlations of IVs with the DV\cr
 \code{tolerances} \tab Tolerance for each IV\cr
@@ -50,10 +56,24 @@ all variables\cr
 The \code{mrinfo} function is designed to work with multiple regression objects
 where an intercept is estimated.  Models where the intercept is forced through
 the origin ('no intercept' models) are problematic for interpretation of the
-supplemental information listed above and it is not returned.
+supplemental information listed above and it is not returned.  The specification of
+\code{minimal=F} will still provide the list of items described above.
 
 Simple regression models do not require the supplemental information, but the
 user can specify \code{minimal=F} to obtain the longer list of detailed information.
+
+Models with factor IV's may create situations where interpretation of the
+supplemental indices is problematic.  This can easily happen with
+coding schemes such dummy coding (indicator coding or \code{contr.treatment()}).
+Often, suppressor effect can occur,
+rendering interpretation of beta weights, partial and semi-partial correlations, and
+particularly the unique and common variance proportions challenging.  The unique
+proportion of variance index is calculated as the squrare of the semi-parital correlation
+(appropriately).  But the common proportion is calculated as the difference between
+this unique fraction and the squared zero order pearson correlation for that IV. When
+suppressor effects arise because of patterns related to contrast coding schemes this
+common proportion can be  found as a nonsensical negative quantity. Careful understanding
+of one's model is required in these circumstances.
 }
 
 \examples{
@@ -62,12 +82,38 @@ fit1 <- lm(rating ~ complaints + learning +  privileges, data=attitude)
 #summary(fit1)
 mrinfo(fit1, minimal=TRUE, cilevel=.99)
 mrinfo(fit1, minimal=FALSE, cilevel=.95)
+data(mtcars)
+mtcars$cyl <- as.factor(mtcars$cyl)
+contrasts(mtcars$cyl) <- contr.helmert(3)
+fit2 <- lm (mpg ~ cyl + hp, data= mtcars)
+mrinfo(fit2, minimal=TRUE)
 
 }
 \references{
-This function is a modification of a function originally coded
+This function is a modeled on  a function originally coded
 in the \code{regr} function in the \bold{yhat} package.  It uses the
-\code{effect.size} and \code{commonalityCoefficients} functions from that package.
+\code{effect.size} function from that package.
+
+Cohen, J., & Cohen, J. (2003). \emph{Applied multiple regression/correlation
+analysis for the behavioral sciences} (3rd ed.). L. Erlbaum Associates.
+
+Cooley, W. W., & Lohnes, P. R. (1971). \emph{Multivariate data analysis}. Wiley.
+
+Nimon, K., Lewis, M., Kane, R., & Haynes, R. M. (2008). An R package to
+compute commonality coefficients in the multiple regression case:
+An introduction to the package and a practical example. \emph{Behavior Research Methods},
+40(2), 457-466.
+
+Pedhazur, E. \emph{Multiple regression in behavioral research}. 1997.
+Orlando, FL: Harcourt.
+
+Ray‐Mukherjee, J., Nimon, K., Mukherjee, S., Morris, D. W., Slotow, R.,
+& Hamer, M. (2014). Using commonality analysis in multiple regressions:
+a tool to decompose regression effects in the face of multicollinearity.
+\emph{Methods in Ecology and Evolution}, 5(4), 320-328.
+
+Thompson, B., & Borrello, G. M. (1985). The importance of structure coefficients
+in regression research. \emph{Educational and psychological measurement}, 45(2), 203-209.
 }
 \author{
 Bruce Dudek \href{mailto:bruce.dudek@albany.edu}{bruce.dudek@albany.edu}

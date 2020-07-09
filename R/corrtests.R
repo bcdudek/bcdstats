@@ -20,7 +20,9 @@
 #'
 #' @section Related Functions:  \code{test2r.ind} is a member of a set of
 #' functions that provide tests of differences between independent and
-#' dependent correlations.  See:
+#' dependent correlations.  The functions were inspired by the `paired.r`
+#' function in the **psych** package and some of the code is modeled on code
+#' from that function. See:
 #' \itemize{
 #' \item
 #' \code{\link[bcdstats:test2r.t2]{test2r.t2}} Test two dependent correlations
@@ -135,7 +137,9 @@ NA
 #'
 #' @section Related Functions: \code{test2r.mengz1} is a member of a set of
 #' functions that provide tests of differences between independent and
-#' dependent correlations.  See:
+#' dependent correlations.  The functions were inspired by the `paired.r`
+#' function in the **psych** package and some of the code is modeled on code
+#' from that function. See:
 #' \itemize{
 #' \item
 #' \code{\link[bcdstats:test2r.t2]{test2r.t2}}, Test two dependent correlations
@@ -251,7 +255,9 @@ NA
 #'
 #' @section Related Functions: \code{test2r.steigerz1} is a member of a set of
 #' functions that provide tests of differences between independent and
-#' dependent correlations.  See:
+#' dependent correlations.  The functions were inspired by the `paired.r`
+#' function in the **psych** package and some of the code is modeled on code
+#' from that function. See:
 #' \itemize{ \item
 #' \code{\link[bcdstats:test2r.t2]{test2r.t2}}, Test two dependent correlations
 #' with the the T2 method: r(yx1) vs r(yx2)
@@ -367,7 +373,10 @@ NA
 #'
 #' @section Related Functions:  \code{test2r.steigerz2} is a member of a set of
 #' functions that provide tests of differences between independent and
-#' dependent correlations.  See: \itemize{
+#' dependent correlations.  The functions were inspired by the `paired.r`
+#' function in the **psych** package and some of the code is modeled on code
+#' from that function. See:
+#' \itemize{
 #' \item
 #' \code{\link[bcdstats:test2r.t2]{test2r.t2}}, Test two dependent correlations with the the T2
 #' method: r(yx1) vs r(yx2)
