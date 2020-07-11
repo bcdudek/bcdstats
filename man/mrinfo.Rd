@@ -35,7 +35,7 @@ the model with the yhat vector.  See Thompson and Borello (1985), Cooley and Loh
 
 \tabular{ll}{
 \code{beta wt} \tab Standardized Regression Coefficients\cr
-\code{beta wt} \tab Structure Coefficients\cr
+\code{structure r} \tab Structure Coefficients\cr
 \code{partial r} \tab Partial correlations of IVs with the DV\cr
 \code{semi-partial r} \tab Semi-partial correlations of IVs with the DV\cr
 \code{tolerances} \tab Tolerance for each IV\cr
@@ -57,7 +57,7 @@ The \code{mrinfo} function is designed to work with multiple regression objects
 where an intercept is estimated.  Models where the intercept is forced through
 the origin ('no intercept' models) are problematic for interpretation of the
 supplemental information listed above and it is not returned.  The specification of
-\code{minimal=F} will still provide the list of items described above.
+\code{minimal=FALSE} will still provide the list of items described above.
 
 Simple regression models do not require the supplemental information, but the
 user can specify \code{minimal=F} to obtain the longer list of detailed information.
@@ -68,11 +68,11 @@ coding schemes such dummy coding (indicator coding or \code{contr.treatment()}).
 Often, suppressor effect can occur,
 rendering interpretation of beta weights, partial and semi-partial correlations, and
 particularly the unique and common variance proportions challenging.  The unique
-proportion of variance index is calculated as the squrare of the semi-parital correlation
+proportion of variance index is calculated as the square of the semi-partial correlation
 (appropriately).  But the common proportion is calculated as the difference between
 this unique fraction and the squared zero order pearson correlation for that IV. When
 suppressor effects arise because of patterns related to contrast coding schemes this
-common proportion can be  found as a nonsensical negative quantity. Careful understanding
+common proportion can sometimes be  found as a nonsensical negative quantity. Careful understanding
 of one's model is required in these circumstances.
 }
 
