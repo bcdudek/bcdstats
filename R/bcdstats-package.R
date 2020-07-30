@@ -7,7 +7,7 @@
 #' supplemental information for \code{lm} regression models.
 #'
 #' \tabular{ll}{ Package: \tab bcdstats\cr Type: \tab Package\cr Version: \tab
-#' 0.0.0.9001\cr Date: \tab 2020-07-09\cr License: \tab GPL-3\cr LazyLoad: \tab
+#' 0.0.0.9002\cr Date: \tab 2020-07-29\cr License: \tab GPL-3\cr LazyLoad: \tab
 #' yes\cr }
 #' The bcdstats package provides graphical functions for univariate
 #' data display, graphical displays for several probability distributions, and
