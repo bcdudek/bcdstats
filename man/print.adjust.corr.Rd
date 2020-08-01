@@ -14,3 +14,6 @@
 \description{
 Print method for adjust.corr
 }
+\seealso{
+Used with the \code{\link{adjust.corr}} function
+}

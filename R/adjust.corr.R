@@ -88,8 +88,9 @@ adjust.corr <- function (x, type = c("pearson", "spearman"),
 #' @param x An object produced by \code{adjust.corr}
 #' @param ... not used
 #'
+#' @seealso Used with the \code{\link{adjust.corr}} function
+#'
 #' @method print adjust.corr
-#' @export
 print.adjust.corr <- function (x, ...)
 {
   cat("\n", if (x$type == "pearson")
