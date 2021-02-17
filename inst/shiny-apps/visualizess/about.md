@@ -7,5 +7,5 @@
   
   This app works well as an adjunct to the use of excel for implementation of the Sum Of Squares computation.  In a spreadsheet it is simple for the student to see each of the deviations, their squares, and the summing/averaging process that produces the sample variance.  The idea of averaging squares makes the expression come to life for many students who will treat use of formulas only as memorization tasks.
   
- Ver 1.0, Aug. 21, 2018
+ Ver 1.1, Feb. 16, 2021
 

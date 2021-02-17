@@ -2,12 +2,13 @@
 #'
 #' Four Components to the package:\cr Graphing functions for univariate data
 #' and descriptive summaries.\cr A set of functions to test the difference
-#' between two pearson product-moment correlation coefficients.\cr Graphical
-#' methods for probability distribution calculations.\cr A function to provide
+#' between two pearson product-moment correlation coefficients.\cr Shiny apps
+#' for visualization in statistics instruction, including interactive graphical
+#' methods for probability distribution calculation/visualization.\cr A function to provide
 #' supplemental information for \code{lm} regression models.
 #'
 #' \tabular{ll}{ Package: \tab bcdstats\cr Type: \tab Package\cr Version: \tab
-#' 0.0.0.9002\cr Date: \tab 2020-07-29\cr License: \tab GPL-3\cr LazyLoad: \tab
+#' 0.0.0.9003\cr Date: \tab 2021-02-16\cr License: \tab GPL-3\cr LazyLoad: \tab
 #' yes\cr }
 #' The bcdstats package provides graphical functions for univariate
 #' data display, graphical displays for several probability distributions, and

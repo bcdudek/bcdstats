@@ -143,10 +143,10 @@ server <- function(input, output, session) {
   #sd(x)**2
   #(var(x)*4/5)**.5
   SD1 <- 10.89265
-  SS <- SD1*5
+  SS <- (SD1**2)*5
   halfsd1 <- SD1/2
   sampsize <- 5
-  highstats <- as.data.frame(cbind(xbar, SS, SD1))
+  highstats <- as.data.frame(cbind(xbar, SS, SD1**2))
   colnames(highstats) <- c("Mean of X","Sum of Squares", "Sample Variance")
 #################################################################
   # now repeat the whole thing with a smaller variance
@@ -168,9 +168,9 @@ server <- function(input, output, session) {
   #sd(x2)**2
   #(var(x2)*4/5)**.5
   SD2 <- 3.572762
-  SS2 <- SD2*5
+  SS2 <- (SD2**2)*5
   halfsd2 <- SD2/2
-  lowstats <- as.data.frame(cbind(xbar2, SS2, SD2))
+  lowstats <- as.data.frame(cbind(xbar2, SS2, SD2**2))
   colnames(lowstats) <- c("Mean of X","Sum of Squares", "Sample Variance")
 ################################################################  
   # plots for high dispersion data

@@ -103,7 +103,7 @@ shinyUI(
                                             "Can you think of why this is the case?"),trigger="click")
         ),
         tabPanel("About",
-                 includeMarkdown('about.Rmd')
+                 includeMarkdown('about.md')
                  )
       ))
   ))

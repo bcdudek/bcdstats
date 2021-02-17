@@ -24,13 +24,11 @@ The purpose of this app is to provide a visualization that aids in the proper co
 
 5.  In our simulation, we have specified the true population mean so we can make this comparison to the "confidence" level.  But in realistic analysis we don't know the true value of mu, but have some "confidence" about its location provided by the calculated CI.  For example, we will know that with a CI of 95%, that 95% of the time, if we repeated the sample, our computed CI would overlap the true value of mu.
 
-6.  When sigma (population SD) is known, then the confidence interval can be found using std normal Z deviates based on the CI level, IF WE CAN ASSUME THAT THE SAMPLING DISTRIBUTION OF THE MEAN IS NORMAL.
+6.  When sigma (population SD) is known, then the confidence interval can be found using std normal Z deviates based on the CI level, IF WE CAN ASSUME THAT THE SAMPLING DISTRIBUTION OF THE MEAN IS NORMAL.  This CI calculation is:  xbar +/- Z*SEM, where SEM is the sd/(sqrt N)
 
-7.  This CI calculation is:  xbar +/- Z*SEM, where SEM is the sd/(sqrt N)
- 
-?\[\widehat {Y_i}\, = \,a\, + {b_1}{X_{1i}}\, + \,{b_2}{X_{2i}}\]? 
- 
+7.  When the sigma is unknown and estimated by the sample variance the critical Z value is replaced by a critical t value, based on the n-1 df.
 
-This app was inspired by a type of plot found in ????????????????????????  This type of plot has been dynamically implemented in a javascript applet from the <a href="http://www.rossmanchance.com/applets/ConfSim.html" target="_blank">Rossman/Chance collection</a>.  R/Shiny code to create a rudimentary version was created by Tyler Hunt and is available in a <a href="https://github.com/JackStat/ConfidenceIntervals" target="_blank">GitHub repository</a>.  The current app has partly modeled on Hunt's code, and has expanded the approach with several additional features.
 
-Ver 1.0, June 28, 2017
+This app was inspired by a type of plot found in Box, Hunter and Hunter (1978, "Statistics for Experimenters", New York, J. Wiley)  This type of plot has been dynamically implemented in a useful javascript applet from the <a href="http://www.rossmanchance.com/applets/ConfSim.html" target="_blank">Rossman/Chance collection</a>  and in an impressive  <a href="http://rpsychologist.com/d3/CI/" target="_blank">D3 implementation</a> by Kristoffer Magnusson.  R/Shiny code to create a rudimentary version was created by Tyler Hunt and is available in a <a href="https://github.com/JackStat/ConfidenceIntervals" target="_blank">GitHub repository</a>.  The current app has partly modeled on Hunt's code, and has expanded the approach with several additional features.
+
+Ver 1.1, Feb. 16, 2021

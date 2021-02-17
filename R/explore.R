@@ -43,7 +43,8 @@
 explore <-
 function(x,na.rm=T)
 {
-opar <- par(mfrow=c(2,3))
+opar <- par(no.readonly=TRUE)
+par(mfrow=c(2,3))
 par(mai=c(0.6732, 0.5412, 0.9, 0.2772))
 h1 <- KernSmooth::dpih(x[!is.na(x)])
 bins <- seq(min(x,na.rm=T)-h1, max(x,na.rm=T)+h1, by=h1)
@@ -104,5 +105,6 @@ qdens.it <- function (x, ylab="Density", main="Quartiles on Kernel Density") {
 qdens.it(x)
 # define header for multiple graph display
 mtext(text=paste0("Univariate Plots: ",deparse(substitute(x))),outer=T,line=-1.8,cex=1.4)
+par(opar)
 psych::describe(x,skew=TRUE,type=2)
 }
