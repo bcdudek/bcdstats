@@ -44,6 +44,8 @@
 #' \itemize{
 #' \item
 #' **confidence**: Simulate confidence intervals based on either t or z distributions
+#' \item
+#' **ci_overlap**: Confidence Interval Overlap and - p values - Inference by eye?
 #' }
 
 #' @section Type I and II error visualization: Visualize null and alternative sampling distributions
@@ -99,6 +101,9 @@
 #' @importFrom shinyBS removePopover
 #' @importFrom shinyBS addPopover
 #' @importFrom shinyBS bsTooltip
+#' @importFrom Rmisc summarySE
+#' @importFrom ggplot2 ggplot
+#' @importFrom dabestr dabest
 #'
 runshinyApp <- function(appname){
   # locate all the shiny app examples that exist

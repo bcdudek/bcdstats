@@ -63,6 +63,8 @@ descriptive statistics using differing initial random variable distributions.
 \itemize{
 \item
 \strong{confidence}: Simulate confidence intervals based on either t or z distributions
+\item
+\strong{ci_overlap}: Confidence Interval Overlap and - p values - Inference by eye?
 }
 }
 

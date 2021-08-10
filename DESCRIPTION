@@ -1,7 +1,7 @@
 Package: bcdstats
 Title: A collection of functions to support B. Dudek's APSY510/511 classes
-Version: 0.0.0.9003
-Date: 02/16/2021
+Version: 0.0.0.9004
+Date: 08/10/2021
 Authors@R: 
     person(given = "Bruce",
            family = "Dudek",
@@ -26,7 +26,10 @@ Imports:
     psych,
     e1071,
     quantreg,
-    shinyBS
+    shinyBS,
+    ggplot2,
+    dabestr,
+    Rmisc
 License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true
