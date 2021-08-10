@@ -40,14 +40,27 @@
 #' **sampdist**: Simulate sampling distributions of several descriptive statistics
 #' }
 #'
-#' @section Confidence Interval Visualization: Visualize confidence intervals, "in the long run"
+#' @section Visualize distribution overlap and effect sizes for two populations:
+#' \itemize{
+#' \item
+#' **effectsizes_overlap**: Examine overlap indices and visualize normal distribution overlap
+#' }
+#'
+#' @section Visualize P value distributions under various hypotheses:
+#' \itemize{
+#' \item
+#' **pvaluedistribution**: Simulate sampling distributions P values for a one sample test
+#' }
+#' @section Confidence Interval Visualization: Visualize confidence intervals, "in the long run":
 #' \itemize{
 #' \item
 #' **confidence**: Simulate confidence intervals based on either t or z distributions
+#' \item
+#' **ci_overlap**: Confidence Interval Overlap and - p values - Inference by eye?
 #' }
 
 #' @section Type I and II error visualization: Visualize null and alternative sampling distributions
-#' of various characteristics and consequent Type I and II error rates.
+#' of various characteristics and consequent Type I and II error rates:
 #' \itemize{
 #' \item
 #' **betaprob**: Simulate overlapping null/alternative sampling distributions to visualize Type I
@@ -55,7 +68,7 @@
 #' }
 #'
 #' @section Correlation/Regression Simulation Apps: Simulate bivariate data and visualize
-#' the components of bivariate correlation/covariance and simple regression.
+#' the components of bivariate correlation/covariance and simple regression:
 #' \itemize{
 #' \item
 #' **rectangles**: Visualize the Covariance/SP components
@@ -63,13 +76,13 @@
 #' **corrsim**:  Simulate bivariate correlation and simple regression.  Visualize yhats.
 #' }
 #'
-#' @section Trend Analysis: Visualize components of orthogonal polynomial trend
+#' @section Trend Analysis: Visualize components of orthogonal polynomial trend:
 #' \itemize{
 #' \item
 #' **trend**: Simulate application of orthogonal polynomial trend to a one-factor ANOVA design.
 #' }
 #'
-#' @section Interaction and Moderation: Visualize interactions, moderator effects, simple effects
+#' @section Interaction and Moderation: Visualize interactions, moderator effects, simple effects:
 #' \itemize{
 #' \item
 #' **mod2**: In two-IV linear models (regression and ANOVA), visualize two-way interactions with
@@ -99,6 +112,10 @@
 #' @importFrom shinyBS removePopover
 #' @importFrom shinyBS addPopover
 #' @importFrom shinyBS bsTooltip
+#' @importFrom Rmisc summarySE
+#' @importFrom ggplot2 ggplot
+#' @importFrom dabestr dabest
+#' @importFrom pwr pwr.t.test
 #'
 runshinyApp <- function(appname){
   # locate all the shiny app examples that exist
