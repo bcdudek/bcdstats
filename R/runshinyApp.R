@@ -115,10 +115,7 @@
 #' @importFrom Rmisc summarySE
 #' @importFrom ggplot2 ggplot
 #' @importFrom dabestr dabest
-<<<<<<< HEAD
 #' @importFrom pwr pwr.t.test
-=======
->>>>>>> origin/master
 #'
 runshinyApp <- function(appname){
   # locate all the shiny app examples that exist
