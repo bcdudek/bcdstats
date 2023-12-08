@@ -46,7 +46,7 @@ shinyUI(pageWithSidebar(
                  "Tail Probability:", 
                  min = .00001,
                  max = 1.0, 
-                 value = .02500,
+                 value = .0500,
                  step=.001,sep=""))
      ),
      conditionalPanel(

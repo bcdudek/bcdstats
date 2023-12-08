@@ -114,7 +114,11 @@
 #' @importFrom shinyBS bsTooltip
 #' @importFrom Rmisc summarySE
 #' @importFrom ggplot2 ggplot
-#' @importFrom dabestr dabest
+#' @importFrom dabestr dabest_plot
+#' @importFrom dabestr load
+#' @importFrom dabestr mean_diff
+#' @importFrom dabestr hedges_g
+#' @importFrom dabestr cohens_d
 #' @importFrom pwr pwr.t.test
 #'
 runshinyApp <- function(appname){

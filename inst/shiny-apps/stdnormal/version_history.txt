@@ -1,3 +1,6 @@
+ver 1.9 12-7-23
+changed default prob for prob-control two-tailed slider to .05 from .025
+
 ver 1.8 1-23-17
 added validation checks for out of range values in input boxes. major advance.
 

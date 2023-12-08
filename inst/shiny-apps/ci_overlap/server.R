@@ -1,5 +1,6 @@
 library(shiny)
 library(ggplot2)
+# needs version 2023.9.12 version of dabestr
 library(dabestr)
 library(Rmisc)
 
@@ -507,28 +508,47 @@ function(input, output, session) {
         data2 <- as.data.frame(cbind(group,DV))
         data2$group <- as.factor(data2$group)
         data2$DV <- as.numeric(data2$DV)
-
+### Attempted edit to update to the newer dabestr package
+### Works but may need updated dplyr package too
+### Left old code for dabestr version 0.3.0, commented.
+### note that the load function is from dabestr, not base!!!
          # draw plots
         if (input$ptype==1){
-        two.group.unpaired1 <-
-            dabest(.data=data2, group, DV,
-                   idx=c("A","B"),
-                   paired=FALSE) %>% mean_diff
-        plot(two.group.unpaired1, color.column = group)
+        # two.group.unpaired1 <-
+        #     dabest(.data=data2, group, DV,
+        #            idx=c("A","B"),
+        #            paired=FALSE) %>% mean_diff
+        # plot(two.group.unpaired1, color.column = group)
+          #print(names(data2))
+          two.group.unpaired <-
+            dabestr::load(data2, x=group, y=DV,
+                 idx=c("A","B"))
+          db1 <- mean_diff(two.group.unpaired)
+          dabest_plot(db1,TRUE)
         }
         else if (input$ptype==2){
-        two.group.unpaired2 <-
-            dabest(.data=data2, group, DV,
-                   idx=c("A","B"),
-                   paired=FALSE) %>% cohens_d
-        plot(two.group.unpaired2, color.column = group)
+        # two.group.unpaired2 <-
+        #     dabest(.data=data2, group, DV,
+        #            idx=c("A","B"),
+        #            paired=FALSE) %>% cohens_d
+        # plot(two.group.unpaired2, color.column = group)
+          two.group.unpaired <-
+            dabestr::load(data2, x=group, y=DV,
+                 idx=c("A","B"))
+          db2 <- cohens_d(two.group.unpaired)
+          dabest_plot(db2,TRUE)
         }
         else if (input$ptype==3){
-        two.group.unpaired3 <-
-            dabest(.data=data2, group, DV,
-                   idx=c("A","B"),
-                   paired=FALSE) %>% hedges_g()
-        plot(two.group.unpaired3, color.column = group)
+        # two.group.unpaired3 <-
+        #     dabest(.data=data2, group, DV,
+        #            idx=c("A","B"),
+        #            paired=FALSE) %>% hedges_g()
+        # plot(two.group.unpaired3, color.column = group)
+          two.group.unpaired <-
+            dabestr::load(data2, x=group, y=DV,
+                 idx=c("A","B"))
+          db3 <- hedges_g(two.group.unpaired)
+          dabest_plot(db3,TRUE)
         }
     }) # finisher renderplot for plot3
 }
