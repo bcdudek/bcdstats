@@ -8,7 +8,7 @@ This repository is a test case for the author to learn github.  It is not yet re
 
 The latest development version can be downloaded using the `devtools` package by executing these two lines of code:
 
-if(!require(devtools)) install.packages("devtools")
+if(!require(remotes)) install.packages("remotes")
 
-devtools::install_github('bcdudek/bcdstats')
+remotes::install_github('bcdudek/bcdstats')
 
