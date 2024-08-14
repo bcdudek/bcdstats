@@ -15,7 +15,7 @@ supplemental information for \code{lm} regression models.
 }
 \details{
 \tabular{ll}{ Package: \tab bcdstats\cr Type: \tab Package\cr Version: \tab
-0.0.0.9007\cr Date: \tab 2023-12-08\cr License: \tab GPL-3\cr LazyLoad: \tab
+0.0.0.9008\cr Date: \tab 2024-08-14\cr License: \tab GPL-3\cr LazyLoad: \tab
 yes\cr }
 The bcdstats package provides graphical functions for univariate
 data display, graphical displays for several probability distributions, and
@@ -23,14 +23,7 @@ significance test for evaluating differences in Pearson Product-Moment
 Correlation coefficients.  The package is intended for usage by students in
 the APSY510/511 classes.
 }
-\section{List of Functions and Data Frames in bcdstats}{
- See the
-\code{Index} link at the bottom of this page.
-}
-
-\references{
-See class documentation provided elsewhere.
-}
 \author{
-Maintainer: Bruce Dudek \href{mailto:bruce.dudek@albany.edu}{bruce.dudek@albany.edu}
+\strong{Maintainer}: Bruce Dudek \email{bruce.dudek@albany.edu}
+
 }
