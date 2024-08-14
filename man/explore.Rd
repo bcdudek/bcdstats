@@ -4,12 +4,19 @@
 \alias{explore}
 \title{Explore, an EDA function for Univariate Description and Display}
 \usage{
-explore(x, na.rm = T)
+explore(x, varname = "", na.rm = T)
 }
 \arguments{
 \item{x}{The quantitative Random Variable of interest}
 
+\item{varname}{A Variable Label used in the Plot Title}
+
 \item{na.rm}{missing data are handled by this function}
+}
+\value{
+\%\% ~Describe the value returned \%\% If it is a LIST, use \%\%
+\item{comp1 }{Description of 'comp1'} \%\% \item{comp2 }{Description of
+'comp2'} \%\% ...
 }
 \description{
 The function returns a six paneled figure with histograms, kernel density
@@ -24,13 +31,24 @@ coefficients.
 
 \%\% ~~ If necessary, more details than the description above ~~
 }
+\note{
+\%\% ~~further notes~~
+}
 \examples{
 
-explore(faithful$eruptions)
-data(howell2_1)
-explore(howell2_1t$rxtime)
+explore(faithful$eruptions, varname="Eruption Duration")
+explore(mtcars$mpg)
 
 }
-\author{
-Bruce Dudek \href{mailto:bruce.dudek@albany.edu}{bruce.dudek@albany.edu}
+\references{
+Howell, D.C. (2010) Statistical Methods for Psychology.  7th Ed.
+Belmont, CA:Cengage.
 }
+\seealso{
+\%\% ~~objects to See Also as \code{\link{help}}, ~~~
+}
+\author{
+Bruce Dudek
+}
+\keyword{~kwd1}
+\keyword{~kwd2}
