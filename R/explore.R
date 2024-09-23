@@ -41,7 +41,10 @@ require(qqplotr)
 require(grid)
 require(gridExtra)
 require(psych)
+<<<<<<< HEAD
 x <- na.omit(x)
+=======
+>>>>>>> a19e35af39a39a4c723c18caab780195a3491b57
 ### One
 set.seed(5)
 breaks <- pretty(range(x),
