@@ -2,7 +2,7 @@
 % Please edit documentation in R/explore.R
 \name{explore}
 \alias{explore}
-\title{Explore, an EDA function for Univariate Description and Display}
+\title{Explore, an EDA function for Univariate Description and Visualization}
 \usage{
 explore(x, varname = "", na.rm = T)
 }

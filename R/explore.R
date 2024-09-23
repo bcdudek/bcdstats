@@ -1,4 +1,4 @@
-#' Explore, an EDA function for Univariate Description and Display
+#' Explore, an EDA function for Univariate Description and Visualization
 #'
 #' The function returns a six paneled figure with histograms, kernel density
 #' functions, Boxplots with rugplots, normal probability plots, symmetry plots
@@ -33,7 +33,7 @@
 #' @importFrom graphics grid
 
 explore <-
-  function(x,varname="", na.rm=T)
+  function(x, varname="", na.rm=T)
   {
 require(ggplot2)
 require(e1071)
@@ -41,10 +41,7 @@ require(qqplotr)
 require(grid)
 require(gridExtra)
 require(psych)
-<<<<<<< HEAD
 x <- na.omit(x)
-=======
->>>>>>> a19e35af39a39a4c723c18caab780195a3491b57
 ### One
 set.seed(5)
 breaks <- pretty(range(x),
