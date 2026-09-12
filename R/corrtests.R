@@ -209,7 +209,8 @@ test2r.mengz1 <-
     avsq <- ((ry.x1^2) + (ry.x2^2))/2
     f <- (1-(rx1.x2))/(2*(1-avsq))
     h <- (1-f*avsq)/(1-avsq)
-    rad <- (12/(2*(1-rx1.x2)*h))^.5
+    #rad <- (12/(2*(1-rx1.x2)*h))^.5 # error with hard coded 12
+    rad <- ((n-3)/(2*(1-rx1.x2)*h))^.5
     z2 <- dif*rad
 
     zteststat = z2
@@ -450,7 +451,9 @@ test2r.steigerz2 <-
                     + ((rjm-(ravg*rkm))*(rkh-(rkm*ravg))))
     cjkhm <-psi.jkhm/((1-rjk^2)*(1-rhm^2))
     c2jkhm <- psi.jkhm/((1-ravg^2)*(1-ravg^2))
-    zteststat <- (((n-3)^.5)*(fzjk-fzhm))/(2-((2*c2jkhm)^.5))
+    zteststat <- (((n-3)^.5)*(fzjk-fzhm))/((2-(2*c2jkhm))^.5)
+    # corrected incorrect order operations in prior line with sqrt
+    # this version is correct
 
     p <- pnorm(abs(zteststat),0,1, lower.tail = FALSE)
     if (twotailed)

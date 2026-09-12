@@ -1,13 +1,13 @@
 Package: bcdstats
 Title: A collection of functions to support B. Dudek's APSY510/511 classes
-Version: 0.0.0.9009
-Date: 09/23/2024
+Version: 0.0.0.9010
+Date: 09/11/2026
 Authors@R: 
     person(given = "Bruce",
            family = "Dudek",
            role = c("aut", "cre"),
-           email = "bruce.dudek@albany.edu")
-Maintainer: Bruce Dudek <bruce.dudek@albany.edu>
+           email = "bdudek@albany.edu")
+Maintainer: Bruce Dudek <bdudek@albany.edu>
 Description: The bcdstats package provides EDA graphing functions, shiny apps, pearson correlation inference functions, and linear models information functions to support instruction in B. Dudek Statistics Classes.
 Depends: R (>= 3.5.0)
 Imports:
@@ -38,4 +38,4 @@ License: GPL-3 + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+Config/roxygen2/version: 8.1.0

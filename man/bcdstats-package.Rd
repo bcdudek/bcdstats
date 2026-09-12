@@ -15,7 +15,7 @@ supplemental information for \code{lm} regression models.
 }
 \details{
 \tabular{ll}{ Package: \tab bcdstats\cr Type: \tab Package\cr Version: \tab
-0.0.0.9009\cr Date: \tab 2024-09-23\cr License: \tab GPL-3\cr LazyLoad: \tab
+0.0.0.9010\cr Date: \tab 2026-09-11\cr License: \tab GPL-3\cr LazyLoad: \tab
 yes\cr }
 The bcdstats package provides graphical functions for univariate
 data display, graphical displays for several probability distributions, and
@@ -24,6 +24,11 @@ Correlation coefficients.  The package is intended for usage by students in
 the APSY510/511 classes.
 }
 \author{
-\strong{Maintainer}: Bruce Dudek \email{bruce.dudek@albany.edu}
+\strong{Maintainer}: Bruce Dudek \email{bdudek@albany.edu}
+
+Authors:
+\itemize{
+  \item Bruce Dudek \email{bdudek@albany.edu}
+}
 
 }

@@ -1,3 +1,4 @@
 Version history
 ver 0.1  April 2018  Initial working version
 ver 0.2  Aug. 2, 2018,  Cleaned up some wording in various places - no code revision
+ver 0.3 July 6, 2026 rgl function names needed updating with new rgl version plus ggplot linesize argument updated

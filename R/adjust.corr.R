@@ -91,6 +91,7 @@ adjust.corr <- function (x, type = c("pearson", "spearman"),
 #' @seealso Used with the \code{\link{adjust.corr}} function
 #'
 #' @method print adjust.corr
+#' @export print.adjust.corr
 print.adjust.corr <- function (x, ...)
 {
   cat("\n", if (x$type == "pearson")

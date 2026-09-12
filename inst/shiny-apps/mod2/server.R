@@ -1,5 +1,5 @@
-library(shiny)
-library(rgl)
+#library(shiny)
+#library(rgl)
 library(plot3D)
 library(plot3Drgl)
 source("packages.R",local=T)
@@ -71,14 +71,14 @@ shinyServer(function(input, output, session) {
               panel.grid.minor.x = element_blank(),
               panel.grid.minor.y = element_blank(),
               panel.background = element_blank(),
-              axis.line.y = element_line(colour = "black", size = .7),
-              axis.line.x = element_line(colour = "black", size = .7),
+              axis.line.y = element_line(colour = "black", linewidth = .7),
+              axis.line.x = element_line(colour = "black", linewidth = .7),
               plot.title = element_text(hjust = .5),
               legend.title = element_blank()
             ) +
             coord_cartesian(ylim = c(0, 40)) +  scale_y_continuous(expand = c(0, 0)) +
             theme(legend.justification = c(0, 0),
-                  legend.position = c(.05, .8)) +
+                  legend.position.inside = c(.05, .8)) +
             scale_fill_manual(values = c('slategray4', 'slategray3')) +
             geom_errorbar(aes(ymin = y - sem, ymax = y + sem),
                           width = .2,
@@ -104,14 +104,14 @@ shinyServer(function(input, output, session) {
               panel.grid.minor.x = element_blank(),
               panel.grid.minor.y = element_blank(),
               panel.background = element_blank(),
-              axis.line.y = element_line(colour = "black", size = .7),
-              axis.line.x = element_line(colour = "black", size = .7),
+              axis.line.y = element_line(colour = "black", linewidth = .7),
+              axis.line.x = element_line(colour = "black", linewidth = .7),
               plot.title = element_text(hjust = .5),
               legend.title = element_blank()
             ) +
             coord_cartesian(ylim = c(0, 40)) +  scale_y_continuous(expand = c(0, 0)) +
             theme(legend.justification = c(0, 0),
-                  legend.position = c(.05, .8)) +
+                  legend.position.inside = c(.05, .8)) +
             scale_fill_manual(values = c('slategray4', 'slategray3')) +
             geom_errorbar(aes(ymin = y - sem, ymax = y + sem),
                           width = .2,
@@ -153,15 +153,15 @@ shinyServer(function(input, output, session) {
               panel.grid.minor.x = element_blank(),
               panel.grid.minor.y = element_blank(),
               panel.background = element_blank(),
-              axis.line.y = element_line(colour = "black", size = .7),
-              axis.line.x = element_line(colour = "black", size = .7),
+              axis.line.y = element_line(colour = "black", linewidth = .7),
+              axis.line.x = element_line(colour = "black", linewidth = .7),
               plot.title = element_text(hjust = .5),
               legend.title = element_blank()
             ) +
             coord_cartesian(ylim = c(0, 40)) +  scale_y_continuous(expand = c(0, 0)) +
             theme(
               legend.justification = c(0, 0),
-              legend.position = c(.05, .8)
+              legend.position.inside = c(.05, .8)
             ) +
             scale_fill_manual(values = c('slategray4', 'slategray3')) +
             geom_errorbar(
@@ -219,7 +219,7 @@ shinyServer(function(input, output, session) {
                   )
         plotrgl()
         scenetwocatadd1 <- scene3d()
-        rgl.close()
+        close3d()
         save <- options(rgl.inShiny = TRUE)
         on.exit(options(save))
         output$aovadd3D1 <- renderRglwidget(rglwidget(scenetwocatadd1))
@@ -262,7 +262,7 @@ shinyServer(function(input, output, session) {
         )
         plotrgl()
         scenetwocatadd2 <- scene3d()
-        rgl.close()
+        close3d()
         save <- options(rgl.inShiny = TRUE)
         on.exit(options(save))
         output$aovadd3D2 <- renderRglwidget(rglwidget(scenetwocatadd2))
@@ -305,7 +305,7 @@ shinyServer(function(input, output, session) {
         )
         plotrgl()
         scenetwocatadd3 <- scene3d()
-        rgl.close()
+        close3d()
         save <- options(rgl.inShiny = TRUE)
         on.exit(options(save))
         output$aovadd3D3 <- renderRglwidget(rglwidget(scenetwocatadd3))
@@ -348,7 +348,7 @@ shinyServer(function(input, output, session) {
         )
         plotrgl()
         scenetwocatadd4 <- scene3d()
-        rgl.close()
+        close3d()
         save <- options(rgl.inShiny = TRUE)
         on.exit(options(save))
         output$aovadd3D4 <- renderRglwidget(rglwidget(scenetwocatadd4))
@@ -410,7 +410,7 @@ shinyServer(function(input, output, session) {
   
   plotrgl()
   scenetwocatadd5 <- scene3d()
-  rgl.close()
+  close3d()
   save <- options(rgl.inShiny = TRUE)
   on.exit(options(save))
   output$aovadd3D5 <- renderRglwidget(rglwidget(scenetwocatadd5))
@@ -446,7 +446,7 @@ shinyServer(function(input, output, session) {
             ) +
             coord_cartesian(ylim = c(0, 60)) +  scale_y_continuous(expand = c(0, 0)) +
             theme(legend.justification = c(0, 0),
-                  legend.position = c(.05, .8)) +
+                  legend.position.inside = c(.05, .8)) +
             scale_fill_manual(values = c('slategray4', 'slategray3')) +
             geom_errorbar(aes(ymin = y - sem, ymax = y + sem),
                           width = .2,
@@ -479,7 +479,7 @@ shinyServer(function(input, output, session) {
             ) +
             coord_cartesian(ylim = c(0, 60)) +  scale_y_continuous(expand = c(0, 0)) +
             theme(legend.justification = c(0, 0),
-                  legend.position = c(.05, .8)) +
+                  legend.position.inside = c(.05, .8)) +
             scale_fill_manual(values = c('slategray4', 'slategray3')) +
             geom_errorbar(
               aes(ymin = y - sem, ymax = y + sem),
@@ -530,7 +530,7 @@ shinyServer(function(input, output, session) {
             coord_cartesian(ylim = c(0, 60)) +  scale_y_continuous(expand = c(0, 0)) +
             theme(
               legend.justification = c(0, 0),
-              legend.position = c(.05, .8)
+              legend.position.inside = c(.05, .8)
             ) +
             scale_fill_manual(values = c('slategray4', 'slategray3')) +
             geom_errorbar(
@@ -588,7 +588,7 @@ shinyServer(function(input, output, session) {
         )
         plotrgl()
         scenetwocatint1 <- scene3d()
-        rgl.close()
+        close3d()
         save <- options(rgl.inShiny = TRUE)
         on.exit(options(save))
         output$aovint3D1 <- renderRglwidget(rglwidget(scenetwocatint1))
@@ -631,7 +631,7 @@ shinyServer(function(input, output, session) {
         )
         plotrgl()
         scenetwocatint2 <- scene3d()
-        rgl.close()
+        close3d()
         save <- options(rgl.inShiny = TRUE)
         on.exit(options(save))
         output$aovint3D2 <- renderRglwidget(rglwidget(scenetwocatint2))
@@ -679,7 +679,7 @@ shinyServer(function(input, output, session) {
         )
         plotrgl()
         scenetwocatint3 <- scene3d()
-        rgl.close()
+        close3d()
         save <- options(rgl.inShiny = TRUE)
         on.exit(options(save))
         output$aovint3D3 <- renderRglwidget(rglwidget(scenetwocatint3))
@@ -727,7 +727,7 @@ shinyServer(function(input, output, session) {
 
                   plotrgl()
                   scenetwocatint4 <- scene3d()
-                  rgl.close()
+                  close3d()
                   save <- options(rgl.inShiny = TRUE)
                   on.exit(options(save))
                   output$aovint3D4 <- renderRglwidget(rglwidget(scenetwocatint4))
@@ -793,7 +793,7 @@ shinyServer(function(input, output, session) {
         
         plotrgl()
         scenetwocatint5 <- scene3d()
-        rgl.close()
+        close3d()
         save <- options(rgl.inShiny = TRUE)
         on.exit(options(save))
         output$aovint3D5 <- renderRglwidget(rglwidget(scenetwocatint5))
@@ -817,7 +817,7 @@ shinyServer(function(input, output, session) {
                              labels=c("Non-smoker","Smoker"))+
           #  scale_color_grey(start = 0.8, end = 0.2) +
           theme_few()+
-          theme(legend.position=c(.82,.85))+
+          theme(legend.position.inside=c(.82,.85))+
           theme(legend.title=element_blank())+
           stat_smooth(method="lm",aes(colour=factor(smoker))) 
        ) # finish renderplot for biv scatterplot
@@ -854,7 +854,7 @@ shinyServer(function(input, output, session) {
                   #main = "Two Predictor Model\n Data Only")
         plotrgl()
         sceneonecat3d1 <- scene3d()
-        rgl.close()
+        close3d()
         save <- options(rgl.inShiny = TRUE)
         on.exit(options(save))
         output$onecat3d1 <- renderRglwidget(rglwidget(sceneonecat3d1))
@@ -893,7 +893,7 @@ shinyServer(function(input, output, session) {
                   #main = "Two Predictor Model\n Additive model surface - plane")
         plotrgl()
         sceneonecat3d2 <- scene3d()
-        rgl.close()
+        close3d()
         save <- options(rgl.inShiny = TRUE)
         on.exit(options(save))
         output$onecat3d2 <- renderRglwidget(rglwidget(sceneonecat3d2))
@@ -932,7 +932,7 @@ shinyServer(function(input, output, session) {
                   main = "Interaction surface - warped plane")
         plotrgl()
         sceneonecat3d3 <- scene3d()
-        rgl.close()
+        close3d()
         save <- options(rgl.inShiny = TRUE)
         on.exit(options(save))
         output$onecat3d3 <- renderRglwidget(rglwidget(sceneonecat3d3))
@@ -1061,7 +1061,7 @@ shinyServer(function(input, output, session) {
         
         plotrgl()
         sceneonecat3d4 <- scene3d()
-        rgl.close()
+        close3d()
         save <- options(rgl.inShiny = TRUE)
         on.exit(options(save))
         output$onecat3d4 <- renderRglwidget(rglwidget(sceneonecat3d4))
@@ -1104,7 +1104,7 @@ shinyServer(function(input, output, session) {
         )
         plotrgl()
         scenetwonumericdata <- scene3d()
-        rgl.close()
+        close3d()
         save <- options(rgl.inShiny = TRUE)
         on.exit(options(save))
         output$twonumeric1 <- renderRglwidget(rglwidget(scenetwonumericdata))
@@ -1156,7 +1156,7 @@ shinyServer(function(input, output, session) {
         )
         plotrgl()
         scenetwonumericplane <- scene3d()
-        rgl.close()
+        close3d()
         save <- options(rgl.inShiny = TRUE)
         on.exit(options(save))
         output$twonumeric2 <- renderRglwidget(rglwidget(scenetwonumericplane))
@@ -1209,7 +1209,7 @@ shinyServer(function(input, output, session) {
         )
         plotrgl()
         twonumericint1 <- scene3d()
-        rgl.close()
+        close3d()
         save <- options(rgl.inShiny = TRUE)
         on.exit(options(save))
         output$twonumeric3 <- renderRglwidget(rglwidget(twonumericint1))
@@ -1309,7 +1309,7 @@ shinyServer(function(input, output, session) {
         
         plotrgl()
         twonumericint2 <- scene3d()
-        rgl.close()
+        close3d()
         save <- options(rgl.inShiny = TRUE)
         on.exit(options(save))
         output$twonumeric4 <- renderRglwidget(rglwidget(twonumericint2))
