@@ -1,6 +1,6 @@
 ### A collection of functions for APSY510/511
 
-Bruce Dudek [bruce.dudek at albany.edu](mailto:bdudek@albany.edu)  
+Bruce Dudek [bdudek at albany.edu](mailto:bdudek@albany.edu)  
 
 `bcdstats` is a collection of eda tools, probability distribution graphing, shiny, correlation testing, and regression information functions.  It is intended for students in the APSY510/511 classes at the University at Albany.
 
