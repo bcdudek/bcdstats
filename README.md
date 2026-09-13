@@ -6,7 +6,7 @@ Bruce Dudek [bdudek at albany.edu](mailto:bdudek@albany.edu)
 
 This repository is a test case for the author to learn github.  It is not yet ready to receive suggestions for changes.
 
-The latest development version can be downloaded using the `devtools` package by executing these two lines of code:
+The latest development version can be downloaded using the `devtools` package or by executing these two lines of code:
 
 if(!require(remotes)) install.packages("remotes")
 
