@@ -91,7 +91,7 @@
 #'
 #' @param appname The name of the shiny app (IN QUOTES)
 #'
-#' @author Bruce Dudek <bruce.dudek@@albany.edu>
+#' @author Maintainer: Bruce Dudek <bdudek@@albany.edu>
 #'
 #' @examples
 #'

@@ -42,7 +42,7 @@
 #' \item
 #' \code{\link[bcdstats:test2r.ind]{test2r.ind}}, the present function }
 #'
-#' @author Bruce Dudek <bruce.dudek@@albany.edu>
+#' @author Bruce Dudek <bdudek@@albany.edu>
 #'
 #' @seealso Analysts are also encouraged to explore robust methods for
 #' evaluation of correlation comparison hypotheses. For example, see work of R.
@@ -115,8 +115,7 @@ NA
 #' correlations are dependent.  More specifically r(yx1) is tested versus
 #' r(yx2)in one sample of cases.  The function requires the three Pearson
 #' product moment correlations between three variables called y, x1 and x2 in
-#' the notation here.  At present, the function only performs a one-tailed
-#' test.
+#' the notation here.
 #'
 #' The Meng, et al., 1992 method uses the Fisher's Z transformation of the
 #' Pearson correlation coefficients and produces a standard normal deviate.
@@ -133,7 +132,7 @@ NA
 #' @param n Sample Size
 #'
 #' @return \item{z }{The test statistic value, a 'z'.} \item{pvalue
-#' }{one-tailed probability of the 'z' test statistic.}
+#' }{one-tailed and two-tailed probabilities of the 'z' test statistic.}
 #'
 #' @section Related Functions: \code{test2r.mengz1} is a member of a set of
 #' functions that provide tests of differences between independent and
@@ -159,7 +158,7 @@ NA
 #'  Independent Groups
 #'  }
 #'
-#' @author Bruce Dudek <bruce.dudek@@albany.edu>
+#' @author Bruce Dudek <bdudek@@albany.edu>
 #'
 #' @seealso Analysts are also encouraged to explore robust methods for
 #' evaluation of correlation comparison hypotheses. For example, see work of R.
@@ -277,7 +276,7 @@ NA
 #' \code{\link[bcdstats:test2r.ind]{test2r.ind}}, Test two r(xy) from
 #'  Independent Groups }
 #'
-#' @author Bruce Dudek <bruce.dudek@@albany.edu>
+#' @author Bruce Dudek <bdudek@@albany.edu>
 #'
 #' @seealso Analysts are also encouraged to explore robust methods for
 #' evaluation of correlation comparison hypotheses. For example, see work of R.
@@ -396,7 +395,7 @@ NA
 #' \code{\link[bcdstats:test2r.ind]{test2r.ind}} Test two r(xy) from
 #'  Independent Groups }
 #'
-#' @author Bruce Dudek <bruce.dudek@@albany.edu>
+#' @author Bruce Dudek <bdudek@@albany.edu>
 #'
 #' @seealso Analysts are also encouraged to explore robust methods for
 #' evaluation of correlation comparison hypotheses. For example, see work of R.
@@ -519,7 +518,7 @@ NA
 #' \code{\link[bcdstats:test2r.ind]{test2r.ind}} Test two r(xy) from
 #'  Independent Groups }
 #'
-#' @author Bruce Dudek <bruce.dudek@@albany.edu>
+#' @author Bruce Dudek <bdudek@@albany.edu>
 #'
 #' @seealso Analysts are also encouraged to explore robust methods for
 #' evaluation of correlation comparison hypotheses. For example, see work of R.

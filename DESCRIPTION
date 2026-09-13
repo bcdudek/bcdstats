@@ -1,7 +1,7 @@
 Package: bcdstats
 Title: A collection of functions to support B. Dudek's APSY510/511 classes
-Version: 0.0.0.9010
-Date: 09/11/2026
+Version: 0.0.0.9011
+Date: 09/13/2026
 Authors@R: 
     person(given = "Bruce",
            family = "Dudek",

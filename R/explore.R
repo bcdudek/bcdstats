@@ -18,7 +18,7 @@
 #' \item{comp1 }{Description of 'comp1'} %% \item{comp2 }{Description of
 #' 'comp2'} %% ...
 #' @note %% ~~further notes~~
-#' @author Bruce Dudek
+#' @author Maintainer: Bruce Dudek <bdudek@@albany.edu>
 #' @seealso %% ~~objects to See Also as \code{\link{help}}, ~~~
 #' @references Howell, D.C. (2010) Statistical Methods for Psychology.  7th Ed.
 #' Belmont, CA:Cengage.

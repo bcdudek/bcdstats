@@ -61,9 +61,9 @@
 #'common proportion can sometimes be  found as a nonsensical negative quantity. Careful understanding
 #'of one's model is required in these circumstances.
 #'
-#' @author Bruce Dudek <bruce.dudek@@albany.edu>
+#' @author Maintainer: Bruce Dudek <bdudek@@albany.edu>
 #'
-#' @references This function is a modeled on  a function originally coded
+#' @references Part of this function is a modeled on a function originally coded
 #'    in the \code{regr} function in the \bold{yhat} package.  It uses the
 #'    \code{effect.size} function from that package.
 #'

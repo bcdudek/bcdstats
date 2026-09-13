@@ -33,7 +33,7 @@
 #' Similar capabilities can be found in the \code{psych::corr.test} and \code{psych::corr.p}
 #' functions which will also produce confidence intervals for the correlation coefficients.
 #'
-#' @author Bruce Dudek <bruce.dudek@@albany.edu>
+#' @author Bruce Dudek <bdudek@@albany.edu>
 #'
 #' @references This function is a modeled on  a function originally coded
 #'    as the \code{corr.adjust} function in the \bold{RcmdrMisc} package.

@@ -1,4 +1,3 @@
-
 #' Table 2.1 Data from Howell text
 #'
 #' Howell's table 2.1
